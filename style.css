@@ -28,11 +28,41 @@ section  {
     border-bottom: 1px solid #000;
 }
 
+#about {
+    display: flex;
+    gap: 10px;
+}
+
+#about img {
+    border-radius: 100%;
+}
+
 section h2 {
     font-size: 25px;
 }
 
 section a {
     color: purple;
+}
+
+footer span {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+footer nav ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
 }
 
